@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none; color: blue;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none; color: blue;">Moby Dick</a>
     </div>
 
     <header>
@@ -39,14 +39,14 @@
         <th>Purpose</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
-        <td>include a heading (levels 1&ndash;6)</td>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;">headings</td>
+        <td style="padding: 10px;">include a heading (levels 1&ndash;6)</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>paragraph</td>
-        <td>include a paragraph of text</td>
+        <td style="padding: 10px;"><code>p</code></td>
+        <td style="padding: 10px;">paragraph</td>
+        <td style="padding: 10px;">include a paragraph of text</td>
       </tr>
       <tr>
         <td><code>table</code></td>
@@ -77,6 +77,21 @@
         <td><code>ul</code></td>
         <td>unordered list</td>
         <td>include an unordered list of items</td>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>division</td>
+        <td>containers for content</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>block quote</td>
+        <td>format text as quote</td>
+      </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>Isolate head text</td>
       </tr>
     </table>
 
@@ -139,6 +154,49 @@
         <td>include item in ordered or unordered list</td>
         <td><code>&lt;li&gt;my item&lt;/li&gt;</code></td>
         <td><ul><li>my item</li></ul></td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>allows text to be styled apart from surrounding text</td>
+        <td><code>&lt;span style="text-decoration: underline"&gt;This&lt;/span&gt; is in a span</code></td>
+        <td><span style="text-decoration: underline">This</span> is in a span</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>break</td>
+        <td>creates a line break</td>
+        <td><code>line&lt;br&gt;break</code></td>
+        <td>line<br>break</td>
+      </tr>
+    </table>
+
+    <h2>HTML document elements</h2>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>Tells the browser that this is an HTML document</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>A container for all the head elements</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>Defines the document's body</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>Required in all HTML documents; defines the title of the document</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>Data about data</td>
       </tr>
     </table>
 
